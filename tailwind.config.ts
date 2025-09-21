@@ -47,6 +47,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Task Management Colors
+        todo: {
+          primary: "hsl(var(--todo-primary))",
+          secondary: "hsl(var(--todo-secondary))",
+        },
+        progress: {
+          primary: "hsl(var(--progress-primary))",
+          secondary: "hsl(var(--progress-secondary))",
+        },
+        done: {
+          primary: "hsl(var(--done-primary))",
+          secondary: "hsl(var(--done-secondary))",
+        },
+        priority: {
+          high: "hsl(var(--priority-high))",
+          medium: "hsl(var(--priority-medium))",
+          low: "hsl(var(--priority-low))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
